@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "SessionStart": [
+      { "hooks": [ { "type": "command", "command": "~/ai-hafiza/hooks/oturum-basi.sh" } ] }
+    ],
+    "Stop": [
+      { "hooks": [ { "type": "command", "command": "HAFIZA_KIM=claude ~/ai-hafiza/hooks/oturum-sonu.sh" } ] }
+    ]
+  }
+}
